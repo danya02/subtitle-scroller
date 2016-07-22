@@ -1,0 +1,22 @@
+{
+  "sub":[
+    {
+      "text": "This is a program.",
+      "time": 5,
+      "clear": true,
+      "final_delay": 2
+    },
+    {
+      "text": "This program scrolls subtitles, ",
+      "time": 5,
+      "clear": false,
+      "final_delay": 2
+    },
+    {
+      "text": "the way you see it now.",
+      "time": 5,
+      "clear": true,
+      "final_delay": 2
+    }
+  ]
+}
