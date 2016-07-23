@@ -51,4 +51,5 @@ for i in inp:
     #    e+=1
     outp["sub"]=outp["sub"]+outp_block
 print()
+outp["sub"]=outp["sub"]+[{"time":5, "text":"END","clear":False,"final_delay":0}]
 json.dump(outp, open(input("Output path: "), "w"))
