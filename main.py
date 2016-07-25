@@ -10,12 +10,12 @@ clear_line = False
 for i in sub["sub"]:
     import os
     rows, columns = os.popen('stty size', 'r').read().split()
-    rows=int(rows)
-    columns=int(columns)
-    if i["text"]=="...........":
-        i["text"]="FILL-IN"+"."*(columns-7)
-    if i["text"]=="END":
-        i["text"]="END".center(columns,"-")
+    rows = int(rows)
+    columns = int(columns)
+    if i["text"] == "...........":
+        i["text"] = "FILL-IN"+"."*(columns-7)
+    if i["text"] == "END":
+        i["text"] = "END".center(columns, "-")
     if clear_line:
         clear_line = False
         sys.stdout.write(magic["clear_line"])
